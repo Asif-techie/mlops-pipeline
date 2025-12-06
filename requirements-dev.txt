@@ -1,0 +1,10 @@
+-r requirements.txt
+pytest
+pytest-cov
+flake8
+black
+mypy
+pre-commit
+prometheus-client
+opentelemetry-api
+opentelemetry-sdk
