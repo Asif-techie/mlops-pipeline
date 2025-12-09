@@ -1,10 +1,8 @@
--r requirements.txt
-pytest
-pytest-cov
-flake8
-black
-mypy
-pre-commit
-prometheus-client
-opentelemetry-api
-opentelemetry-sdk
+pytest==7.4.3
+pytest-cov==4.1.0
+flake8==6.1.0
+black==23.12.1
+isort==5.12.0
+pre-commit==3.6.0
+
+

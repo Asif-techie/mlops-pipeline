@@ -1,27 +1,58 @@
-# Python cache files
+# ------------------------
+# Python
+# ------------------------
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual environment
+# Bytecode & temp files
+*.swp
+*.swo
+*.tmp
+
+# ------------------------
+# Virtual Environments
+# ------------------------
 .venv/
-env/
 venv/
+env/
 
-# Environment files
-.env
-
-# Logs and databases
-*.log
-*.sqlite
-
-# Model artifacts
+# ------------------------
+# ML Artifacts & Models
+# ------------------------
+artifacts/
+models/
 *.pkl
-*.h5
 *.joblib
+*.onnx
+*.h5
 
-# VS Code settings
+# MLflow tracking directory
+mlruns/
+
+# CatBoost logs
+catboost_info/
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# IDE/Editor
+# ------------------------
 .vscode/
+.idea/
 
-# OS files
+# ------------------------
+# System / OS
+# ------------------------
 .DS_Store
 Thumbs.db
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+logs/
